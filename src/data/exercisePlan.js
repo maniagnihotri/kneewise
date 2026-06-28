@@ -10,7 +10,7 @@ export const EXERCISES = {
     description:
       "Sit with leg straight, press the back of the knee firmly into the floor by tightening the thigh. Hold, then relax.",
     cue: "Feel the inner-thigh (VMO) contract above the kneecap.",
-    youtube: "https://www.youtube.com/watch?v=NIu1xJ1usuk",
+    youtube: "https://www.youtube.com/watch?v=lOTPmMV5y7o",
   },
   heel_slides: {
     id: "heel_slides",
@@ -19,7 +19,7 @@ export const EXERCISES = {
     description:
       "Lie on back, slowly slide the heel of the surgical leg toward you, bending the knee as far as comfortable. Slide back.",
     cue: "Smooth and controlled, no clicking.",
-    youtube: "https://www.youtube.com/watch?v=jNMcU2KQA1g",
+    youtube: "https://www.youtube.com/watch?v=6-anByqnKp8",
   },
   ankle_pumps: {
     id: "ankle_pumps",
@@ -27,7 +27,7 @@ export const EXERCISES = {
     category: "Activation",
     description: "Point and flex the foot through full range.",
     cue: "Warm-up the calf and ankle for the session.",
-    youtube: "https://www.youtube.com/watch?v=ohB5HsTBZE0",
+    youtube: "https://www.youtube.com/watch?v=KxfFzSOAT7g",
   },
   // ---- Foundation strength ----
   glute_bridge: {
@@ -46,7 +46,7 @@ export const EXERCISES = {
     description:
       "Side-lying, knees bent, open the top knee like a clam while keeping heels together.",
     cue: "Hips stay stacked, no rolling back.",
-    youtube: "https://www.youtube.com/watch?v=oh9EAOSDA-Y",
+    youtube: "https://www.youtube.com/watch?v=39vuP5xozsI",
   },
   side_leg_raise: {
     id: "side_leg_raise",
@@ -64,7 +64,7 @@ export const EXERCISES = {
     description:
       "Stand tall holding a wall, rise onto the balls of feet, lower slowly.",
     cue: "3-second descent for tendon health.",
-    youtube: "https://www.youtube.com/watch?v=8e6_W7wxgxk",
+    youtube: "https://www.youtube.com/watch?v=cqDMYUaIXvw",
   },
   wall_sit: {
     id: "wall_sit",
@@ -82,7 +82,7 @@ export const EXERCISES = {
     description:
       "Loop a band behind the knee anchored ahead of you. Push the knee back to straighten fully.",
     cue: "Lock out the knee at the top, contract VMO.",
-    youtube: "https://www.youtube.com/watch?v=Po52t8z3UMo",
+    youtube: "https://www.youtube.com/watch?v=xdKm8PSX438",
   },
   // ---- Balance / Single leg ----
   single_leg_balance: {
@@ -216,7 +216,7 @@ export const EXERCISES = {
     category: "Mobility",
     description: "Seated or lying, gently lengthen the hamstring.",
     cue: "Hold without bouncing, breathe.",
-    youtube: "https://www.youtube.com/watch?v=FDwpEdxZ_iw",
+    youtube: "https://www.youtube.com/watch?v=me22JRV7pJc",
   },
   hip_flexor_stretch: {
     id: "hip_flexor_stretch",
@@ -232,7 +232,7 @@ export const EXERCISES = {
     category: "Recovery",
     description: "Slow rolling along the front and outer thigh.",
     cue: "Spend extra time on tender spots.",
-    youtube: "https://www.youtube.com/watch?v=Y9bQwJ9hbVE",
+    youtube: "https://www.youtube.com/watch?v=JyT2Og_xJO4",
   },
 };
 
