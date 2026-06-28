@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Manrope:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  background: #f5f4f0;
+  color: #2a2e26;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #5a6b47;
+  color: #f5f4f0;
+}
+
+@layer base {
+  :root {
+    --background: 45 16% 95%;
+    --foreground: 80 8% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 80 8% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 80 8% 16%;
+    --primary: 84 19% 35%;
+    --primary-foreground: 45 16% 95%;
+    --secondary: 48 11% 91%;
+    --secondary-foreground: 80 8% 16%;
+    --muted: 48 11% 91%;
+    --muted-foreground: 85 5% 42%;
+    --accent: 48 11% 91%;
+    --accent-foreground: 80 8% 16%;
+    --destructive: 11 39% 52%;
+    --destructive-foreground: 45 16% 95%;
+    --border: 45 16% 86%;
+    --input: 45 16% 86%;
+    --ring: 84 19% 35%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.editorial-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #5a6b47;
+}
+
+.bento-card {
+  background: #fff;
+  border: 1px solid #d6d3c4;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bento-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(42, 46, 38, 0.06);
+}
+
+.checked-strike {
+  text-decoration: line-through;
+  text-decoration-color: #8a9084;
+  color: #8a9084;
+}
+
+.scroll-thin::-webkit-scrollbar {
+  height: 6px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: #d6d3c4;
+  border-radius: 3px;
+}
+
+@layer base {
+  [data-debug-wrapper="true"] {
+    display: contents !important;
+  }
+  [data-debug-wrapper="true"] > * {
+    margin-left: inherit;
+    margin-right: inherit;
+    margin-top: inherit;
+    margin-bottom: inherit;
+    padding-left: inherit;
+    padding-right: inherit;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    column-gap: inherit;
+    row-gap: inherit;
+    gap: inherit;
+  }
+}
