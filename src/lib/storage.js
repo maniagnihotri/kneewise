@@ -1,5 +1,5 @@
-// Simple localStorage helpers with a single root key namespace.
 const ROOT = "knee-rehab-v1";
+const EVT = "kneewise-storage-changed";
 
 function readAll() {
   try {
@@ -12,6 +12,25 @@ function readAll() {
 
 function writeAll(data) {
   localStorage.setItem(ROOT, JSON.stringify(data));
+  try {
+    window.dispatchEvent(new CustomEvent(EVT, { detail: data }));
+  } catch {
+    // ignore in non-browser contexts
+  }
+}
+
+export function subscribe(handler) {
+  const fn = (e) => handler(e.detail);
+  window.addEventListener(EVT, fn);
+  return () => window.removeEventListener(EVT, fn);
+}
+
+export function snapshot() {
+  return readAll();
+}
+
+export function replaceAll(data) {
+  localStorage.setItem(ROOT, JSON.stringify(data || {}));
 }
 
 export function getStartDate() {

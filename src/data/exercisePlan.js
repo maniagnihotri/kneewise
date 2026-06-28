@@ -241,6 +241,8 @@ export const EXERCISES = {
 const PHASES = {
   1: {
     name: "Foundation",
+    intention: "Symmetry over speed.",
+    intentionBody: "Pay attention to how each side feels. The clicking, the limp, the jerky stair descent — they all soften when the surgical leg learns to bear weight evenly again. Slow, controlled reps win.",
     focus: "Activate quads + glutes, restore symmetry and confidence.",
     days: {
       Mon: ["quad_sets", "glute_bridge", "tke", "calf_raises", "hamstring_stretch"],
@@ -254,6 +256,8 @@ const PHASES = {
   },
   2: {
     name: "Progressive Strength",
+    intention: "Earn the range.",
+    intentionBody: "Single-leg work is where confidence is rebuilt. Move slowly into depth. If your hip drops or knee caves, regress the load before adding more.",
     focus: "Build single-leg control, hip stability, deeper range.",
     days: {
       Mon: ["mini_squat", "step_ups", "glute_bridge", "calf_raises", "hamstring_stretch"],
@@ -267,6 +271,8 @@ const PHASES = {
   },
   3: {
     name: "Power Prep",
+    intention: "Train the brakes, not just the gas.",
+    intentionBody: "Eccentric strength is what protects you from re-injury. Land softly, decelerate with intent. Hamstrings catch what quads cannot.",
     focus: "Introduce light plyometrics, single-leg strength, hamstring eccentrics.",
     days: {
       Mon: ["bulgarian_split_squat", "single_leg_rdl", "calf_raises", "pogo_hops", "hamstring_stretch"],
@@ -280,6 +286,8 @@ const PHASES = {
   },
   4: {
     name: "Return to Activity",
+    intention: "Move with quiet confidence.",
+    intentionBody: "You're ready when the knee feels boring — when nothing pops, nothing pinches, and your body trusts itself again. Don't rush the last mile.",
     focus: "Single-leg power, deceleration, light running prep.",
     days: {
       Mon: ["bulgarian_split_squat", "single_leg_hop", "single_leg_rdl", "calf_raises"],
@@ -341,6 +349,8 @@ export function getDayPlan(week, dayName) {
     phase,
     phaseName: phaseData.name,
     phaseFocus: phaseData.focus,
+    intention: phaseData.intention,
+    intentionBody: phaseData.intentionBody,
     weekInPhase,
     items,
   };
