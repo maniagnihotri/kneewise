@@ -1,10 +1,13 @@
 // Date helpers
 export function todayKey() {
-  return new Date().toISOString().slice(0, 10);
+  return toKey(new Date());
 }
 
 export function toKey(d) {
-  return d.toISOString().slice(0, 10);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
 }
 
 export function fromKey(key) {

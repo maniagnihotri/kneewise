@@ -36,7 +36,11 @@ export function replaceAll(data) {
 export function getStartDate() {
   const data = readAll();
   if (!data.startDate) {
-    const today = new Date().toISOString().slice(0, 10);
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    const today = `${y}-${m}-${day}`;
     data.startDate = today;
     writeAll(data);
     return today;
