@@ -199,7 +199,7 @@ export const EXERCISES = {
     category: "Cardio",
     description: "Steady-pace walking outdoors or on a treadmill.",
     cue: "Heel-to-toe stride, even gait on both sides.",
-    youtube: "https://www.youtube.com/watch?v=NwfeYO0aaSI",
+    youtube: "https://www.youtube.com/watch?v=nmvVfgrExAg",
   },
   stationary_bike: {
     id: "stationary_bike",
