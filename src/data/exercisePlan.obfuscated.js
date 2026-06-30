@@ -10,7 +10,7 @@ export const x1 = {
     description:
       "Sit with leg straight, press the back of the knee firmly into the floor by tightening the thigh. Hold, then relax.",
     cue: "Feel the inner-thigh (VMO) contract above the kneecap.",
-    youtube: "https://www.youtube.com/watch?v=NIu1xJ1usuk",
+    youtube: "https://www.youtube.com/watch?v=lOTPmMV5y7o",
   },
   x3: {
     id: "heel_slides",
@@ -19,7 +19,7 @@ export const x1 = {
     description:
       "Lie on back, slowly slide the heel of the surgical leg toward you, bending the knee as far as comfortable. Slide back.",
     cue: "Smooth and controlled, no clicking.",
-    youtube: "https://www.youtube.com/watch?v=jNMcU2KQA1g",
+    youtube: "https://www.youtube.com/watch?v=6-anByqnKp8",
   },
   x4: {
     id: "ankle_pumps",
@@ -27,7 +27,7 @@ export const x1 = {
     category: "Activation",
     description: "Point and flex the foot through full range.",
     cue: "Warm-up the calf and ankle for the session.",
-    youtube: "https://www.youtube.com/watch?v=ohB5HsTBZE0",
+    youtube: "https://www.youtube.com/watch?v=KxfFzSOAT7g",
   },
   
   x5: {
@@ -46,7 +46,7 @@ export const x1 = {
     description:
       "Side-lying, knees bent, open the top knee like a clam while keeping heels together.",
     cue: "Hips stay stacked, no rolling back.",
-    youtube: "https://www.youtube.com/watch?v=oh9EAOSDA-Y",
+    youtube: "https://www.youtube.com/watch?v=39vuP5xozsI",
   },
   x6: {
     id: "side_leg_raise",
@@ -64,7 +64,7 @@ export const x1 = {
     description:
       "Stand tall holding a wall, rise onto the balls of feet, lower slowly.",
     cue: "3-second descent for tendon health.",
-    youtube: "https://www.youtube.com/watch?v=8e6_W7wxgxk",
+    youtube: "https://www.youtube.com/watch?v=cqDMYUaIXvw",
   },
   x8: {
     id: "wall_sit",
@@ -82,7 +82,7 @@ export const x1 = {
     description:
       "Loop a band behind the knee anchored ahead of you. Push the knee back to straighten fully.",
     cue: "Lock out the knee at the top, contract VMO.",
-    youtube: "https://www.youtube.com/watch?v=Po52t8z3UMo",
+    youtube: "https://www.youtube.com/watch?v=xdKm8PSX438",
   },
   
   x9: {
@@ -216,7 +216,7 @@ export const x1 = {
     category: "Mobility",
     description: "Seated or lying, gently lengthen the hamstring.",
     cue: "Hold without bouncing, breathe.",
-    youtube: "https://www.youtube.com/watch?v=FDwpEdxZ_iw",
+    youtube: "https://www.youtube.com/watch?v=me22JRV7pJc",
   },
   x23: {
     id: "hip_flexor_stretch",
@@ -232,7 +232,7 @@ export const x1 = {
     category: "Recovery",
     description: "Slow rolling along the front and outer thigh.",
     cue: "Spend extra time on tender spots.",
-    youtube: "https://www.youtube.com/watch?v=Y9bQwJ9hbVE",
+    youtube: "https://www.youtube.com/watch?v=JyT2Og_xJO4",
   },
 };
 
@@ -241,95 +241,103 @@ export const x1 = {
 const x25 = {
   1: {
     name: "Foundation",
+    intention: "Symmetry over speed.",
+    x26: "Pay attention to how each side feels. The clicking, the limp, the jerky stair descent — they all soften when the surgical leg learns to bear weight evenly again. Slow, controlled reps win.",
     focus: "Activate quads + glutes, restore symmetry and confidence.",
     days: {
-      x26: ["quad_sets", "glute_bridge", "tke", "calf_raises", "hamstring_stretch"],
-      x27: ["walk", "ankle_pumps", "clamshells", "side_leg_raise", "foam_roll_quad"],
-      x28: ["quad_sets", "wall_sit", "step_ups", "calf_raises", "hip_flexor_stretch"],
-      x29: ["heel_slides", "hamstring_stretch", "foam_roll_quad", "ankle_pumps"],
-      x30: ["glute_bridge", "tke", "clamshells", "mini_squat", "calf_raises"],
-      x31: ["walk", "single_leg_balance", "side_leg_raise", "hamstring_stretch"],
-      x32: ["heel_slides", "ankle_pumps", "hip_flexor_stretch"],
+      x27: ["quad_sets", "glute_bridge", "tke", "calf_raises", "hamstring_stretch"],
+      x28: ["walk", "ankle_pumps", "clamshells", "side_leg_raise", "foam_roll_quad"],
+      x29: ["quad_sets", "wall_sit", "step_ups", "calf_raises", "hip_flexor_stretch"],
+      x30: ["heel_slides", "hamstring_stretch", "foam_roll_quad", "ankle_pumps"],
+      x31: ["glute_bridge", "tke", "clamshells", "mini_squat", "calf_raises"],
+      x32: ["walk", "single_leg_balance", "side_leg_raise", "hamstring_stretch"],
+      x33: ["heel_slides", "ankle_pumps", "hip_flexor_stretch"],
     },
   },
   2: {
     name: "Progressive Strength",
+    intention: "Earn the range.",
+    x26: "Single-leg work is where confidence is rebuilt. Move slowly into depth. If your hip drops or knee caves, regress the load before adding more.",
     focus: "Build single-leg control, hip stability, deeper range.",
     days: {
-      x26: ["mini_squat", "step_ups", "glute_bridge", "calf_raises", "hamstring_stretch"],
-      x27: ["walk", "single_leg_balance", "lateral_band_walk", "clamshells", "foam_roll_quad"],
-      x28: ["reverse_lunge", "tke", "wall_sit", "side_leg_raise", "hip_flexor_stretch"],
-      x29: ["heel_slides", "ankle_pumps", "foam_roll_quad", "hamstring_stretch"],
-      x30: ["mini_squat", "step_ups", "clamshells", "calf_raises", "single_leg_balance"],
-      x31: ["walk", "reverse_lunge", "glute_bridge", "hip_flexor_stretch"],
-      x32: ["hamstring_stretch", "hip_flexor_stretch", "ankle_pumps"],
+      x27: ["mini_squat", "step_ups", "glute_bridge", "calf_raises", "hamstring_stretch"],
+      x28: ["walk", "single_leg_balance", "lateral_band_walk", "clamshells", "foam_roll_quad"],
+      x29: ["reverse_lunge", "tke", "wall_sit", "side_leg_raise", "hip_flexor_stretch"],
+      x30: ["heel_slides", "ankle_pumps", "foam_roll_quad", "hamstring_stretch"],
+      x31: ["mini_squat", "step_ups", "clamshells", "calf_raises", "single_leg_balance"],
+      x32: ["walk", "reverse_lunge", "glute_bridge", "hip_flexor_stretch"],
+      x33: ["hamstring_stretch", "hip_flexor_stretch", "ankle_pumps"],
     },
   },
   3: {
     name: "Power Prep",
+    intention: "Train the brakes, not just the gas.",
+    x26: "Eccentric strength is what protects you from re-injury. Land softly, decelerate with intent. Hamstrings catch what quads cannot.",
     focus: "Introduce light plyometrics, single-leg strength, hamstring eccentrics.",
     days: {
-      x26: ["bulgarian_split_squat", "single_leg_rdl", "calf_raises", "pogo_hops", "hamstring_stretch"],
-      x27: ["stationary_bike", "single_leg_balance", "lateral_band_walk", "clamshells"],
-      x28: ["reverse_lunge", "nordic_curl_easy", "glute_bridge", "lateral_line_hop", "hip_flexor_stretch"],
-      x29: ["walk", "foam_roll_quad", "hamstring_stretch", "ankle_pumps"],
-      x30: ["bulgarian_split_squat", "single_leg_rdl", "pogo_hops", "calf_raises"],
-      x31: ["stationary_bike", "lateral_band_walk", "single_leg_balance", "hip_flexor_stretch"],
-      x32: ["foam_roll_quad", "hamstring_stretch", "ankle_pumps"],
+      x27: ["bulgarian_split_squat", "single_leg_rdl", "calf_raises", "pogo_hops", "hamstring_stretch"],
+      x28: ["stationary_bike", "single_leg_balance", "lateral_band_walk", "clamshells"],
+      x29: ["reverse_lunge", "nordic_curl_easy", "glute_bridge", "lateral_line_hop", "hip_flexor_stretch"],
+      x30: ["walk", "foam_roll_quad", "hamstring_stretch", "ankle_pumps"],
+      x31: ["bulgarian_split_squat", "single_leg_rdl", "pogo_hops", "calf_raises"],
+      x32: ["stationary_bike", "lateral_band_walk", "single_leg_balance", "hip_flexor_stretch"],
+      x33: ["foam_roll_quad", "hamstring_stretch", "ankle_pumps"],
     },
   },
   4: {
     name: "Return to Activity",
+    intention: "Move with quiet confidence.",
+    x26: "You're ready when the knee feels boring — when nothing pops, nothing pinches, and your body trusts itself again. Don't rush the last mile.",
     focus: "Single-leg power, deceleration, light running prep.",
     days: {
-      x26: ["bulgarian_split_squat", "single_leg_hop", "single_leg_rdl", "calf_raises"],
-      x27: ["walk", "box_jump_low", "lateral_band_walk", "single_leg_balance"],
-      x28: ["reverse_lunge", "nordic_curl_easy", "single_leg_hop", "lateral_line_hop"],
-      x29: ["stationary_bike", "foam_roll_quad", "hamstring_stretch", "hip_flexor_stretch"],
-      x30: ["bulgarian_split_squat", "box_jump_low", "single_leg_rdl", "calf_raises"],
-      x31: ["walk", "single_leg_hop", "lateral_line_hop", "single_leg_balance"],
-      x32: ["foam_roll_quad", "hamstring_stretch", "ankle_pumps"],
+      x27: ["bulgarian_split_squat", "single_leg_hop", "single_leg_rdl", "calf_raises"],
+      x28: ["walk", "box_jump_low", "lateral_band_walk", "single_leg_balance"],
+      x29: ["reverse_lunge", "nordic_curl_easy", "single_leg_hop", "lateral_line_hop"],
+      x30: ["stationary_bike", "foam_roll_quad", "hamstring_stretch", "hip_flexor_stretch"],
+      x31: ["bulgarian_split_squat", "box_jump_low", "single_leg_rdl", "calf_raises"],
+      x32: ["walk", "single_leg_hop", "lateral_line_hop", "single_leg_balance"],
+      x33: ["foam_roll_quad", "hamstring_stretch", "ankle_pumps"],
     },
   },
 };
 
 
-function volume(category, phase, x33) {
+function volume(category, phase, x34) {
   const base = {
-    x34: { sets: 3, reps: "10 holds × 5s" },
-    x35: { sets: 1, reps: "8 each side" },
-    x36: { sets: 2, reps: 10 },
-    x37: { sets: 3, reps: "30s hold" },
-    x38: { sets: 2, reps: 8 },
-    x39: { sets: 1, reps: "20 min" },
-    x40: { sets: 1, reps: "60s per area" },
+    x35: { sets: 3, reps: "10 holds × 5s" },
+    x36: { sets: 1, reps: "8 each side" },
+    x37: { sets: 2, reps: 10 },
+    x38: { sets: 3, reps: "30s hold" },
+    x39: { sets: 2, reps: 8 },
+    x40: { sets: 1, reps: "20 min" },
+    x41: { sets: 1, reps: "60s per area" },
   };
   const b = base[category] || { sets: 2, reps: 10 };
   
-  const x41 = b.sets + (x33 - 1);
+  const x42 = b.sets + (x34 - 1);
   let reps = b.reps;
   if (typeof reps === "number") {
-    reps = reps + (x33 - 1) * 2 + (phase - 1) * 2;
+    reps = reps + (x34 - 1) * 2 + (phase - 1) * 2;
   } else if (category === "Balance") {
     reps = `${30 + (weekInPhase - 1) * 15}s hold`;
   } else if (category === "Cardio") {
     reps = `${20 + (weekInPhase - 1) * 5 + (phase - 1) * 5} min`;
   }
-  return { sets: x41, reps };
+  return { sets: x42, reps };
 }
 
-export function x42(week) {
+export function x43(week) {
   return Math.min(4, Math.ceil(week / 3));
 }
 
-export function x43(week, x44) {
-  const phase = x42(week);
-  const x45 = x25[phase];
-  const x33 = ((week - 1) % 3) + 1;
-  const ids = x45.days[x44] || [];
+export function x44(week, x45) {
+  const phase = x43(week);
+  const x46 = x25[phase];
+  const x34 = ((week - 1) % 3) + 1;
+  const ids = x46.days[x45] || [];
   const items = ids.map((id) => {
     const ex = x1[id];
-    const vol = volume(ex.category, phase, x33);
+    const vol = volume(ex.category, phase, x34);
     return {
       ...ex,
       sets: vol.sets,
@@ -339,19 +347,21 @@ export function x43(week, x44) {
   });
   return {
     phase,
-    x46: x45.name,
-    x47: x45.focus,
-    x33,
+    x47: x46.name,
+    x48: x46.focus,
+    intention: x46.intention,
+    x26: x46.x26,
+    x34,
     items,
   };
 }
 
-export const x48 = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+export const x49 = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-export function x49(url) {
+export function x50(url) {
   try {
-    const u = new x50(url);
-    const v = u.x51.get("v");
+    const u = new x51(url);
+    const v = u.x52.get("v");
     return v
       ? `https://img.youtube.com/vi/${v}/hqdefault.jpg`
       : null;

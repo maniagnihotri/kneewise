@@ -1,5 +1,7 @@
 import { Play } from "lucide-react";
+import { useState } from "react";
 import { ytThumbnail } from "@/data/exercisePlan";
+import VideoModal from "@/components/VideoModal";
 
 export default function ExerciseCard({
   exercise,
@@ -7,6 +9,7 @@ export default function ExerciseCard({
   onToggle,
   testIdPrefix = "exercise",
 }) {
+  const [showVideo, setShowVideo] = useState(false);
   const thumb = ytThumbnail(exercise.youtube);
   return (
     <div
@@ -15,11 +18,9 @@ export default function ExerciseCard({
       }`}
       data-testid={`${testIdPrefix}-card-${exercise.id}`}
     >
-      <a
-        href={exercise.youtube}
-        target="_blank"
-        rel="noreferrer"
-        className="relative block overflow-hidden rounded-2xl mb-4 group"
+      <button
+        onClick={() => setShowVideo(true)}
+        className="relative block overflow-hidden rounded-2xl mb-4 group w-full text-left"
         data-testid={`${testIdPrefix}-video-${exercise.id}`}
       >
         {thumb ? (
@@ -39,7 +40,11 @@ export default function ExerciseCard({
             <Play className="w-5 h-5 text-charcoal" fill="#2A2E26" strokeWidth={1} />
           </div>
         </div>
-      </a>
+      </button>
+
+      {showVideo && (
+        <VideoModal exercise={exercise} onClose={() => setShowVideo(false)} />
+      )}
 
       <div className="editorial-label">{exercise.category}</div>
       <h3
